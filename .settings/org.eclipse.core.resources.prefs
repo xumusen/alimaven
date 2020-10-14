@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+encoding//src/test/java/com/alipay/easysdk/TestAccount.java=UTF-8
+encoding//src/test/java/com/alipay/easysdk/marketing/pass/ClientTest.java=UTF-8
+encoding//src/test/java/com/alipay/easysdk/marketing/templatemessage/ClientTest.java=UTF-8
+encoding//src/test/resources/fixture/aliyunAccessKey.json=UTF-8
+encoding//src/test/resources/fixture/privateKey.json=UTF-8
+encoding/<project>=UTF-8
