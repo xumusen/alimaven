@@ -56,14 +56,10 @@ public class TestAccount {
             Config config = new Config();
             config.protocol = "https";
             config.gatewayHost = "openapi.alipay.com";
-            config.appId = "2019022663440152";
+            config.appId = "2021001195660209";
             config.signType = "RSA2";
 
-            config.alipayPublicKey = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAumX1EaLM4ddn1Pia4SxTRb62aVYxU8I2mHMqrc"
-                    + "pQU6F01mIO/DjY7R4xUWcLi0I2oH/BK/WhckEDCFsGrT7mO+JX8K4sfaWZx1aDGs0m25wOCNjp+DCVBXotXSCurqgGI/9UrY+"
-                    + "QydYDnsl4jB65M3p8VilF93MfS01omEDjUW+1MM4o3FP0khmcKsoHnYGs21btEeh0LK1gnnTDlou6Jwv3Ew36CbCNY2cYkuyP"
-                    + "AW0j47XqzhWJ7awAx60fwgNBq6ZOEPJnODqH20TAdTLNxPSl4qGxamjBO+RuInBy+Bc2hFHq3pNv6hTAfktggRKkKzDlDEUwg"
-                    + "SLE7d2eL7P6rwIDAQAB";
+            config.alipayPublicKey = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuxUc3staUcwmnZuIxC3OMheMkZ75BoqzZzEpSBIQmhds72HNWNUzHUD+3RqGXnvUo2uIVjrHLmNabFljuRfFqC60FpHwjZqw/Qslk7Vx2I+rpa9jtWEKz7SndbqvXhbmxgDQGwUV1+ozZdOAmGMiKxWUskulZfYxUrwn4jozypyzsdt6D0GZ8koJpuPASLI4S3c26X1M3ZurSn1/U59e+1IAIAhpjh/FTFVE3M9rXlxZDWBzVIHbqrKszKKBeq9rO7l9vaOGppUkHEXRvyGlIutjmgEYwqX+GTZUAcoGcTlpV74DQc9fBwEy1RNMHg3/stNgn/0qZm4xiPkIKerTKQIDAQAB";
             config.merchantPrivateKey = getPrivateKey(config.appId);
             config.notifyUrl = "https://www.test.com/callback";
             return config;
